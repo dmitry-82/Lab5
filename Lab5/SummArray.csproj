@@ -27,3 +27,6 @@ namespace Lab5
             Console.Write("{0,10:f2}", S / 7);
             Console.WriteLine();
             Console.ReadKey();
+        }
+    }
+}
