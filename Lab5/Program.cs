@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,17 +10,21 @@ namespace Lab5
     {
         static void Main(string[] args)
         {
-            int elements = int.Parse (Console.ReadLine());
             int[] array = new int[7];
-            Random random = new Random();
+            array [0] = 24;
+            array [1] = 5;
+            array [2] = 2;
+            array [3] = 9;
+            array [4] = 12;
+            array [5] = 8;
+            array [6] = 19;
             float S = 0;
             for (int i = 0; i < 7; i++)
             {
-                array[i] = elements(0,7);
                 S += array[i];
                 Console.Write("{0} ", array[i]);
             }
-            Console.Write("{0,7:f2}", S / 7);
+            Console.Write("{0,10:f2}", S / 7);
             Console.WriteLine();
             Console.ReadKey();
         }
