@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="I:\Обучение\BIM - проектирование ИТМО\Lab 5.1\Program5.2" Link="Program5.2" />
+  </ItemGroup>
+
+</Project>
